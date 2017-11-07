@@ -3,9 +3,9 @@
 
 int main(void)
 {
-printf("minutes: ");
-int minutes = get_int();
+    printf("minutes: ");
+    int minutes = get_int();
 
-int bottles = (minutes * 192)/ 16;
-printf("bottles: %i\n", bottles);
+    int bottles = (minutes * 192) / 16;
+    printf("bottles: %i\n", bottles);
 }
